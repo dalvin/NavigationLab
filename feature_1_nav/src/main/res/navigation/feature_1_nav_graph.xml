@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@id/feature_1_nav_graph"
+            app:startDestination="@id/feature_1">
+
+    <fragment android:id="@id/feature_1"
+              android:name="com.dalvinlabs.feature_1_ui.Feature1Fragment">
+
+        <action android:id="@id/action_goto_feature_2" app:destination="@id/feature_2_nav_graph"/>
+
+    </fragment>
+
+</navigation>
